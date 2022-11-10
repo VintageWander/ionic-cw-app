@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@awesome-cordova-plugins/toast": "^6.2.0",
     "@capacitor/app": "4.1.0",
     "@capacitor/core": "4.4.0",
     "@capacitor/haptics": "4.0.1",
@@ -19,6 +20,7 @@
     "@types/react-dom": "^18.0.6",
     "@types/react-router": "^5.1.11",
     "@types/react-router-dom": "^5.1.7",
+    "date-fns": "2.29.3",
     "ionicons": "^6.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -38,7 +40,8 @@
     "workbox-range-requests": "^5.1.4",
     "workbox-routing": "^5.1.4",
     "workbox-strategies": "^5.1.4",
-    "workbox-streams": "^5.1.4"
+    "workbox-streams": "^5.1.4",
+    "zustand": "4.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
